@@ -21,7 +21,7 @@ export const Navbar = () => {
             <Logo />
           </NavbarItem>
           <NavbarItem className=" flex items-center justify-start pl-4  w-full">
-            <Link href="#">
+            <Link href="/">
               <div className="flex justify-start gap-4">
                 <User />
                 Clientes
@@ -29,7 +29,7 @@ export const Navbar = () => {
             </Link>
           </NavbarItem>
           <NavbarItem className="flex items-center justify-start pl-4 w-full">
-            <Link href="#">
+            <Link href="/accommodations">
               <div className="flex justify-center gap-4">
                 <Hotel />
                 Quartos
