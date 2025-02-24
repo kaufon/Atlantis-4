@@ -14,5 +14,7 @@ type LayoutProps = {
 };
 
 export default function Layout({ children }: LayoutProps) {
-  return <RootLayout>{children}</RootLayout>;
+  return <RootLayout>
+    {children}
+  </RootLayout>;
 }
