@@ -32,12 +32,12 @@ export const Navbar = () => {
             <Link href="/accommodations">
               <div className="flex justify-center gap-4">
                 <Hotel />
-                Quartos
+                Alojamentos
               </div>
             </Link>
           </NavbarItem>
           <NavbarItem className="flex items-center justify-start pl-4 w-full">
-            <Link href="#">
+            <Link href="/lists">
               <div className="flex justify-center gap-4">
                 <NotebookTabs />
                 Listagens
