@@ -18,14 +18,12 @@ export const DashboardLayout = ({ children }: DashboardLayoutProps) => {
 
   return (
     <div className="flex min-h-screen">
-      {/* Sidebar / Navbar */}
       <div className="lg:w-52 hidden lg:block h-screen">
         <Navbar />
       </div>
 
       <div className="flex-1 mt-20 lg:mt-0 p-6">{children}</div>
 
-      {/* Mobile Drawer */}
       <div className="p-3 lg:hidden fixed top-0 left-0 z-50">
         <Button onPress={onOpen} variant="bordered" className="border-none">
           <MenuIcon />
@@ -34,7 +32,7 @@ export const DashboardLayout = ({ children }: DashboardLayoutProps) => {
           radius="none"
           isOpen={isOpen}
           placement="left"
-          size="xs"
+          className="w-[70%]"
           onOpenChange={onOpenChange}
         >
           <DrawerContent>
